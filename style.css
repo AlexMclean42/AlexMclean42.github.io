@@ -5,7 +5,9 @@
 :root {
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #09b5ee;
+    --clr-accent: #894ed5;
+    --clr-bar: #894ed5;
+
     
 }
 body{
@@ -70,11 +72,6 @@ img{
     flex: 1;
 }
 
-/* .sidebars{
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 20%;
-} */
 
 .section1{
     display: flex;
@@ -190,14 +187,13 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-    background-color: var(--clr-accent);
+    background-color: var(--clr-bar);
 }
 
 
 .progress_section {
     font-weight: 1000;
 }
-
 
 
 .li_interests{
@@ -207,15 +203,15 @@ progress::-webkit-progress-value {
 
 table {
     border-collapse: collapse; 
-    width: 100%; /* Make table full width */
-    font-size: 1.05em; /* Set font size for all text in table */
+    width: 100%; 
+    font-size: 1.05em;
 }
 
 th, td {
-    padding: 8px; /* Add padding to cells */
-    text-align: left; /* Align text to the left */
+    padding: 8px; 
+    text-align: left;
 }
 
 th {
-    font-weight: bold; /* Make header text bold */
+    font-weight: bold; 
 }
